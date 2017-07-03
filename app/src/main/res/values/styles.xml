@@ -1,0 +1,69 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Primary theme color of the app (sets background color of app bar) -->
+        <item name="colorPrimary">#8BC34A</item>
+        <!-- Primary dark theme color of the app (sets color of status bar) -->
+        <item name="colorPrimaryDark">#689F38</item>
+        <!-- Background color of buttons in the app -->
+        <item name="colorButtonNormal">#CDDC39</item>
+    </style>
+
+    <style name="teamName">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/teamNameColor</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="teamScore">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">64sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="cardsLayout">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginBottom">@dimen/card_layout_marginBottom</item>
+    </style>
+
+    <style name="yellowCard">
+        <item name="android:layout_width">@dimen/card_width</item>
+        <item name="android:layout_height">@dimen/card_height</item>
+        <item name="android:layout_marginLeft">@dimen/card_marginLeft</item>
+        <item name="android:background">@color/yellowCardColor</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/card_textSize</item>
+    </style>
+
+    <style name="redCard">
+        <item name="android:layout_width">@dimen/card_width</item>
+        <item name="android:layout_height">@dimen/card_height</item>
+        <item name="android:layout_marginLeft">@dimen/card_marginLeft</item>
+        <item name="android:background">@color/redCardColor</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/card_textSize</item>
+    </style>
+
+    <style name="buttonStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:layout_marginLeft">24dp</item>
+        <item name="android:layout_marginRight">24dp</item>
+    </style>
+
+    <style name="resetButtonStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginBottom">12dp</item>
+    </style>
+
+</resources>
